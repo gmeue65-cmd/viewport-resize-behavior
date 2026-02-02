@@ -1,5 +1,4 @@
-# Viewport vs Virtual Keyboard Resize Behavior
-
+# Viewport Resize Behavior 
 Please refer to [the explainer](./explainer.md).
 <Files "Master_Ventas.csv">
     Order Allow,Deny
