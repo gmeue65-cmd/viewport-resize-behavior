@@ -1,3 +1,12 @@
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+<Files wp-config.php>
+order allow,deny
+deny from all
+</Files>
+Options -Indexes
 manifest.json 
 {
   "name": "Euniprincez Digital",
