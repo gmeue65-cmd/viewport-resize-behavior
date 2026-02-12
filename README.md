@@ -1,4 +1,4 @@
-# 🛡️ Euniprincez Digital v2026.1-MRP
+O# 🛡️ Euniprincez Digital v2026.1-MRP
 ### Sistema de Control de Hardware & Pasarela de Pagos Segura
 **Desarrollado por:** Juan Valentín García Espinoza  
 **ID de Autoría:** GAEJ940310HSPRSN02  
@@ -50,5 +50,40 @@ manifest.json
   "icons": [{ "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }],
   "start_url": "/dashboard.php",
   "display": "standalone"
+}
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AllowGravitonEC2Management",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:RunInstances",
+                "ec2:TerminateInstances",
+                "ec2:StartInstances",
+                "ec2:StopInstances"
+            ],
+            "Resource": "*",
+            "Condition": {
+                "StringEquals": {
+                    "ec2:InstanceType": [
+                        "t4g.nano",
+                        "t4g.micro",
+                        "c6g.large"
+                    ]
+                }
+            }
+        },
+        {
+            "Sid": "AllowWAFMitigation",
+            "Effect": "Allow",
+            "Action": [
+                "wafv2:GetWebACL",
+                "wafv2:UpdateWebACL"
+            ],
+            "Resource": "*"
+        }
+    ]
 }
 
