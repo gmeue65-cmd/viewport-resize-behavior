@@ -1,2 +1,19 @@
-# Local Netlify folder
-.netlify
+
+# Archivos de ejecución y caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales (vital no subirlos porque pesan demasiado)
+.venv/
+venv/
+ENV/
+env/
+
+# Archivos de configuración de editores
+.vscode/
+.idea/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
