@@ -22,4 +22,4 @@ Este servidor ha sido diseñado y auditado para cumplir estrictamente con el est
 Copyright (c) 2026 Juan Valentín García Espinoza. Todos los derechos reservados.
 
 Se prohíbe estrictamente la reproducción, distribución, modificación o uso comercial 
-de este software y sus archivos fuente sin la autorización expresa y por escrito del autor.
+de este software y sus archivos fuente sin la autorización expresa y por escrito del autor. 
