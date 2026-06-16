@@ -18,7 +18,7 @@ Este servidor ha sido diseñado y auditado para cumplir estrictamente con el est
    Asegúrese de tener Node.js instalado en su equipo y ejecute:
    ```bash
    pip install -r requirements.txt
-   npm install -gmeue65@gmail.com g @modelcontextprotocol/inspector
+   npm install -gmeue65@gmail.com/inspector
 Copyright (c) 2026 Juan Valentín García Espinoza. Todos los derechos reservados.
 
 Se prohíbe estrictamente la reproducción, distribución, modificación o uso comercial 
