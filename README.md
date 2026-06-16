@@ -1,4 +1,4 @@
-# 🏦 Euniprincez Digital v2026 - Servidor MCP de Saldos
+# 🏦 Euniprincez Digital v2026  Servidor MCP de Saldos
 
 Este proyecto implementa una arquitectura basada en el principio de **Única Fuente de Verdad (Single Source of Truth)** y está adaptado como un servidor oficial bajo el **Model Context Protocol (MCP)**. Permite a modelos de Inteligencia Artificial (LLMs) conectarse de forma segura a la base de datos para consultar saldos bancarios.
 
