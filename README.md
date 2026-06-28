@@ -53,4 +53,4 @@ Este repositorio es de **Propiedad Privada**. La arquitectura utiliza un modelo 
 - **Integridad** Validación vía `composer.lock` y `checksum_maestro_onlineProtocolo de Seguridad
  **Firma Obligatoria:** No se aceptarán PRs [Firma GPG Verificada](https://docs.github.com).
  **Secretos:** Prohibido el hardcode de llaves. Use [GitHub Actions Secrets](https://docs.github.com).
- **Licencia**Ejecución Autorizada (SBE-2026)
+ **Licencia**Ejecución Autorizada (SBE-2026) 
